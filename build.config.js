@@ -6,7 +6,7 @@ module.exports.config = {
     // directories
     dir : {
         target: 'target/webapp',
-        src : '',
+        src : 'app',
         temp : 'target/tmp-ui'
     },
 
@@ -47,9 +47,6 @@ module.exports.config = {
         // application file stuff
         app : {
             tpls : [
-                'app/**/*.tpl.html'
-            ],
-            sites : [
                 'app/**/*.html',
                 'app/index.html'
             ],
