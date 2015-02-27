@@ -17,15 +17,20 @@ module.exports.config = {
             js : {
                 fullNgloader : 'bower_components/angular-loader/angular-loader.js',
                 full : [
+                    'bower_components/jquery/dist/jquery.js',
                     'bower_components/angular/angular.js',
-                    'bower_components/angular-animate/angular-animate.js',
-                    'bower_components/angular-route/angular-route.js'
+                    'bower_components/angular-loader/angular-loader.js',
+                    'bower_components/angular-mocks/angular-mocks.js',
+                    'bower_components/angular-route/angular-route.js',
+                    'bower_components/angular-smart-table/dist/smart-table.debug.js'
                 ],
                 minNgloader : 'bower_components/angular-loader/angular-loader.min.js',
                 min : [
+                    'bower_components/jquery/dist/jquery.min.js',
                     'bower_components/angular/angular.min.js',
-                    'bower_components/angular-animate/angular-animate.min.js',
-                    'bower_components/angular-route/angular-route.min.js'
+                    'bower_components/angular-loader/angular-loader.min.js',
+                    'bower_components/angular-route/angular-route.min.js',
+                    'bower_components/angular-smart-table/dist/smart-table.min.js'
                 ]
             },
 
