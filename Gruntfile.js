@@ -39,7 +39,7 @@ module.exports = function(grunt) {
         'jshint',
         /*'less:dev',*/
         'html2js:dev',
-        'ngconstant:devLocal',
+        /*'ngconstant:devLocal',*/
         'copy:common',
         'sync:dev',
         'includereplace:devLocal',
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
         'jshint',
         /*'less:dev',*/
         'html2js:dev',
-        'ngconstant:dist',
+        /*'ngconstant:dist',*/
         'copy:common',
         'sync:dev',
         'includereplace:dist',
@@ -63,7 +63,7 @@ module.exports = function(grunt) {
         'jshint',
         /*'less:dist',*/
         'html2js:dist',
-        'ngconstant:dist',
+       /* 'ngconstant:dist',*/
         'concat',
         'ngAnnotate',
         'uglify',
