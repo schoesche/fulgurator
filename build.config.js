@@ -51,15 +51,15 @@ module.exports.config = {
             ],
             sites : [
                 'app/**/*.html',
-                'index.html'
+                'app/index.html'
             ],
             js : [
                 'app/**/*.js',
-                'app.js'
+                'app/app.js'
             ],
             styles : [
                 'app/**/*.css',
-                'app.css'
+                'app/app.css'
             ]
         }
     }
