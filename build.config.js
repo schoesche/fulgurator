@@ -17,29 +17,29 @@ module.exports.config = {
             js : {
                 fullNgloader : 'bower_components/angular-loader/angular-loader.js',
                 full : [
-                    'bower_components/jquery/dist/jquery.js',
-                    'bower_components/angular/angular.js',
-                    'bower_components/angular-loader/angular-loader.js',
-                    'bower_components/angular-mocks/angular-mocks.js',
-                    'bower_components/angular-route/angular-route.js',
-                    'bower_components/angular-smart-table/dist/smart-table.debug.js'
+                    'app/bower_components/jquery/dist/jquery.js',
+                    'app/bower_components/angular/angular.js',
+                    'app/bower_components/angular-loader/angular-loader.js',
+                    'app/bower_components/angular-mocks/angular-mocks.js',
+                    'app/bower_components/angular-route/angular-route.js',
+                    'app/bower_components/angular-smart-table/dist/smart-table.debug.js'
                 ],
                 minNgloader : 'bower_components/angular-loader/angular-loader.min.js',
                 min : [
-                    'bower_components/jquery/dist/jquery.min.js',
-                    'bower_components/angular/angular.min.js',
-                    'bower_components/angular-loader/angular-loader.min.js',
-                    'bower_components/angular-route/angular-route.min.js',
-                    'bower_components/angular-smart-table/dist/smart-table.min.js'
+                    'app/bower_components/jquery/dist/jquery.min.js',
+                    'app/bower_components/angular/angular.min.js',
+                    'app/bower_components/angular-loader/angular-loader.min.js',
+                    'app/bower_components/angular-route/angular-route.min.js',
+                    'app/bower_components/angular-smart-table/dist/smart-table.min.js'
                 ]
             },
 
             styles : {
                 full : [
-                    'bower_components/bootstrap/dist/css/bootstrap.css'
+                    'app/bower_components/bootstrap/dist/css/bootstrap.css'
                 ],
                 min : [
-                    'bower_components/bootstrap/dist/css/bootstrap.min.css'
+                    'app/bower_components/bootstrap/dist/css/bootstrap.min.css'
                 ]
             }
         },
